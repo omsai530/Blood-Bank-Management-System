@@ -1,7 +1,7 @@
 import mysql.connector as ms
 import login
 
-def add_donor():
+def add_donor() :
     while True:
         choice = input('Do you want to add a donor? (y/n) ')
         if choice.lower() == 'y':
